@@ -1,0 +1,60 @@
+/* General styles for the body */
+
+
+/* Gallery container */
+.gallery {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Space between items */
+}
+
+/* Individual gallery items */
+.gallery-item {
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow for rounded corners */
+    background-color: #fff; /* White background for each item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animation for hover effects */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Image styles */
+.gallery-item img {
+    max-width: 100%; /* Responsive image size */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents bottom spacing */
+}
+
+/* Hover effects for gallery items */
+.gallery-item:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex; /* Use flexbox for pagination */
+    justify-content: center; /* Center the pagination */
+    margin-top: 20px; /* Space above pagination */
+}
+
+.pagination a {
+    margin: 0 10px; /* Space between buttons */
+    padding: 10px 15px; /* Padding for the buttons */
+    background-color: #516070; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.pagination a:hover {
+    background-color: #2e2e2e; /* Darker color on hover */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .gallery {
+        grid-template-columns: 1fr; /* Single column on small screens */
+    }
+}

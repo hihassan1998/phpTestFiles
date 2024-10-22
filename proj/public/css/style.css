@@ -1,0 +1,100 @@
+/* General page styling */
+html {
+    background-image: url('../../img/250x250/minnestavla_anders_petters.jpg');
+    /* Replace with your parallax image path */
+    background-attachment: fixed;
+    /* This creates the parallax effect */
+    /* background-position: center; */
+    background-repeat: repeat;
+    /* background-color: #d3d3d3; */
+    /* Light gray background */
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    width: 90vw;
+    /* 80% of the viewport width */
+    min-height: 100vh;
+    /* Ensure body covers at least full viewport height */
+    margin: 0 auto;
+    /* Center the body horizontally */
+    background-color: white;
+    /* White background for the content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    display: flex;
+    flex-direction: column;
+    /* Stack content vertically */
+    padding: 15px;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+/** Header and footer styling */
+
+/* footer {
+    background-color: 2e3239;
+    padding: 10px 0;
+    text-align: center;
+    font-size: medium;
+} */
+
+/* Main content styling */
+main {
+    flex: 1;
+    padding: 45px;
+    background-color: #eaeaea;
+    /* margin-bottom: 15px; */
+
+}
+
+.home-h1 {
+    font-size: 55px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/** styling Om  */
+.om-content {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 5px #ccc;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+/** header styling */
+.row-header {
+    display: flex;
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space between logo and title */
+    width: 100%;
+    padding: 10px 20px;
+    /* Add some padding for spacing */
+}
+
+.logo {
+    flex: 0 0 auto;
+    /* Prevent the logo from growing */
+}
+
+.header-title {
+    flex: 1;
+    /* Allow the title to take up available space */
+    text-align: center;
+    /* Center the title text */
+    margin: 0;
+    /* Remove default margin */
+}

@@ -1,0 +1,46 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+} */
+
+.parallax {
+    height: 100px; /* Set the height of the parallax section */
+    /* background-image: url('../../img/80x80/minnestavla_anders_petters.jpg');  */
+    background-attachment: fixed; /* This creates the parallax effect */
+    /* background-position: center; */
+    background-repeat: repeat; /* Prevent tiling */
+border-radius: 15px;
+
+}
+
+.main-home {
+    text-align: center;
+    padding: 20px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+.home-h1 {
+    margin: 20px 0;
+}
+
+.col-hem {
+    padding: 20px;
+    /* background-color: #fff; Background color for content */
+    background-color: rgba(255, 255, 255, 0.7); /* White background with 70% opacity */
+
+}
+
+/* .main-home{
+    z-index: 999;
+    background-image: url('../img/550/minnestavla_anders_petters.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    }
+
+.col-hem {
+    flex: 1;
+    min-width: 150px;
+    padding: 0 15px;
+    text-align: left;
+} */
